@@ -63,7 +63,7 @@
         console.log(array22);
     }
     
-    printtArray(createArray(+prompt('Введите первый элемент массива'), +prompt('Введеите последний элемент массива'));
+    printtArray(createArray(+prompt('Введите первый элемент массива')), +prompt('Введеите последний элемент массива'));
 }
 
 /** task 5, 6**/
@@ -113,7 +113,7 @@
             let space = ' '.repeat(countSpace);
             countSpace--;
             console.log(`${space}${str}`);
-            str += '**'
+            str += '**';
         }
     }
     getTriangle(2);
@@ -165,7 +165,7 @@
 }
 
 {
-    /** Вариант решения на оналйн-уроке**/
+    /** Вариант решения на онлайн-уроке**/
 
     // function getSum(value) {
     //     let sum = 0;
